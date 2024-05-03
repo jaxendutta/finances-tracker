@@ -17,6 +17,7 @@ export default function Page() {
 />
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Welcome to my Personal Financing App.</strong>
+            <br />
             Manage your finances with ease.
           </p>
           <Link
