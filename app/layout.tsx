@@ -1,5 +1,15 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Dashboard',
+    default: 'Dashboard',
+  },
+  description: 'The Finances Tracker Dashboard, built with App Router.',
+  // metadataBase: new URL('https://'),
+};
 
 export default function RootLayout({
   children,
